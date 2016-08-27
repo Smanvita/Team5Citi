@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="TradeBlotter">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="TradeBlotterEJB.jar" deploy-path="/" handle="module:/resource/TradeBlotterEJB/TradeBlotterEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TradeBlotterEJBClient.jar" deploy-path="/" handle="module:/resource/TradeBlotterEJBClient/TradeBlotterEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TradeBlotterAppClient.jar" deploy-path="/" handle="module:/resource/TradeBlotterAppClient/TradeBlotterAppClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TradeBlotterJPA.jar" deploy-path="/lib" handle="module:/resource/TradeBlotterJPA/TradeBlotterJPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="TradeBlotterWeb.war" deploy-path="/" handle="module:/resource/TradeBlotterWeb/TradeBlotterWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
